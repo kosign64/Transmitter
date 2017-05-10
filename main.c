@@ -10,7 +10,7 @@
 typedef struct
 {
     unsigned angle : 7;
-    unsigned x     : 5;
+    signed   x     : 5;
     unsigned y     : 4;
 }Point;
 
