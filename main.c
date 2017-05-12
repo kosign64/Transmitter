@@ -41,7 +41,6 @@ ISR(USART0_RX_vect)
         if(++i >= POINT_NUMBER)
         {
             i = 0;
-            points[i].angle |= _BV(7);
             transmitPayload((uchar*)points, payloadSize);
         }
         break;
