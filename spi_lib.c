@@ -5,7 +5,7 @@
 void spiInit(void)
 {
     // init proper data direction of pins
-    DDR_SPI |= (1 << SS) |(1 << MOSI) | (1 << SCK);
+    DDR_SPI |= (1 << SS) | (1 << MOSI) | (1 << SCK);
     //PORT_SPI |= (1 << MISO);     
     // Enable SPI, Master, set clock rate fck/16
     SPCR = (1 << SPE) | (1 << MSTR) | (1 << SPR0);

@@ -15,3 +15,5 @@ HEADERS += \
     radio_lib.h \
     nRF24L01.h \
     spi_lib.h
+
+DISTFILES +=
